@@ -43,21 +43,3 @@ The central idea is to expose local mesh surfaces as regular 3D grids that progr
 1. **Interpret and ground.** Decompose the instruction into geometric references and locate visual anchors on the scene meshes.
 2. **Construct geometric evidence.** Generate programs over local voxel views to select task-relevant surfaces, boundaries, and regions; inspect and refine these selections using execution feedback.
 3. **Solve the placement.** Generate a pose program that measures the selected geometry and computes the object's rigid transformation, then refine it with rendered observations and contact or clearance diagnostics.
-
-## VoxProg-Bench and results
-
-**VoxProg-Bench** contains 71 open-ended placement tasks spanning functional use, geometric fit, and contextual arrangements. Evaluation pairs **Intent Alignment** with **3D Physical Validity**, assessing whether a placement follows the instruction and is physically plausible.
-
-We compare VoxProg with relation-based, keypoint-based, and mesh-based approaches, and additionally evaluate on **RoboCasa** and **Open6DOR v2**. The project page includes quantitative results and 15 interactive case comparisons, with views for Reference, Direct Mesh Placement, GenManip, GenSim2-kPAM, and VoxProg.
-
-<p align="center">
-  <a href="https://voxprog.github.io/#results"><b>View quantitative results</b></a>
-  &nbsp; · &nbsp;
-  <a href="https://voxprog.github.io/#qualitative-results"><b>Browse interactive comparisons</b></a>
-  &nbsp; · &nbsp;
-  <a href="https://voxprog.github.io/#external-evaluation"><b>Explore external evaluations</b></a>
-</p>
-
-## Release status
-
-This is the official project repository for **VoxProg**. The project website is available now. The arXiv link and citation will be added when the paper becomes public; research code will be released upon acceptance.
