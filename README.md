@@ -2,7 +2,7 @@
 
 Zhichao Zhai, Menglei Zhao, Guikun Chen, Zihao Yan, Kanzhi Wu, Wenguan Wang, and Jun Xiao.
 
-[Project website](https://zhichao-zhai.github.io/VoxProg/)
+[Project website](https://voxprog.github.io/)
 
 VoxProg empowers VLM coding agents with voxel programming to inspect 3D scene geometry, reason over complex spatial constraints, and solve open-ended 3D spatial tasks through code.
 
