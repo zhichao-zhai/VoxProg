@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/arXiv-Coming%20soon-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv — coming soon">
+  <a href="https://arxiv.org/abs/2610.30127"><img src="https://img.shields.io/badge/arXiv-2610.30127-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv 2610.30127"></a>
   <a href="https://voxprog.github.io/"><img src="https://img.shields.io/badge/Project%20Page-Website-3d7276?style=for-the-badge" alt="Project website"></a>
   <a href="https://voxprog.github.io/#qualitative-results"><img src="https://img.shields.io/badge/Explore-Interactive%20Results-2b4f5c?style=for-the-badge" alt="Explore interactive results"></a>
 </p>
