@@ -17,6 +17,7 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2610.30127"><img src="https://img.shields.io/badge/arXiv-2610.30127-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv 2610.30127"></a>
   <a href="https://voxprog.github.io/"><img src="https://img.shields.io/badge/Project%20Page-Website-3d7276?style=for-the-badge" alt="Project website"></a>
+  <img src="https://img.shields.io/badge/Code-Coming%20soon-777777?style=for-the-badge&logo=github&logoColor=white" alt="Code coming soon">
   <a href="https://voxprog.github.io/#qualitative-results"><img src="https://img.shields.io/badge/Explore-Interactive%20Results-2b4f5c?style=for-the-badge" alt="Explore interactive results"></a>
 </p>
 
@@ -43,3 +44,14 @@ The central idea is to expose local mesh surfaces as regular 3D grids that progr
 1. **Interpret and ground.** Decompose the instruction into geometric references and locate visual anchors on the scene meshes.
 2. **Construct geometric evidence.** Generate programs over local voxel views to select task-relevant surfaces, boundaries, and regions; inspect and refine these selections using execution feedback.
 3. **Solve the placement.** Generate a pose program that measures the selected geometry and computes the object's rigid transformation, then refine it with rendered observations and contact or clearance diagnostics.
+
+## Citation
+
+```bibtex
+@article{zhai2026voxprog,
+  author  = {Zhai, Zhichao and Zhao, Menglei and Chen, Guikun and Yan, Zihao and Wu, Kanzhi and Wang, Wenguan and Xiao, Jun},
+  title   = {{VoxProg}: {3D} Spatial Reasoning through Voxel Programming},
+  journal = {arXiv preprint arXiv:2610.30127},
+  year    = {2026}
+}
+```
